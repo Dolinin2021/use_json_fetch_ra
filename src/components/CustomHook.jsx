@@ -1,6 +1,12 @@
 import useJsonFetch from "../hooks/useJsonFetch";
+import PropTypes from 'prop-types';
 
 export default function CustomHook({ url, opts }) {
+  CustomHook.propTypes = {
+    url : PropTypes.string,
+    opts: PropTypes.string,
+  }
+
   const [data, isLoading, hasError] = useJsonFetch(url, opts);
   return (
     <div className="App">

@@ -8,6 +8,7 @@ app.use(cors());
 
 app.use(
   bodyParser.json({
+    // eslint-disable-next-line  
     type(req) {
       return true;
     },
@@ -26,7 +27,7 @@ app.get("/data", async (req, res) => {
 app.get("/error", async (req, res) => {
   res.status(500).send(JSON.stringify({ status: "Internal Error" }));
 });
-
+ 
 app.get("/loading", async (req, res) => {
   await new Promise((resolve) => {
     setTimeout(() => {
@@ -36,5 +37,6 @@ app.get("/loading", async (req, res) => {
   res.send(JSON.stringify({ status: "ok" }));
 });
 
+// eslint-disable-next-line
 const port = process.env.PORT || 7070;
 app.listen(port, () => console.log(`The server is running on port ${port}.`));

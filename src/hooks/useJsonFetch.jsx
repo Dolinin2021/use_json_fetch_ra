@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-export default function useJsonFetch(url, opts) {
+export default function useJsonFetch(url, opts) {  // eslint-disable-line
   const [data, setData] = useState(null);
   const [isLoading, setLoading] = useState(false);
   const [hasError, setError] = useState(null);
