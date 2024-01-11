@@ -1,8 +1,7 @@
-# React + Vite
+# Домашнее задание к занятию "Hooks & Context API"
+## Задание 2. useJsonFetch.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## GitHub Pages
+https://dolinin2021.github.io/use_json_fetch_ra/
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[![Build status](https://ci.appveyor.com/api/projects/status/bn12onhqdc48g4kw?svg=true)](https://ci.appveyor.com/project/Dolinin2021/use-json-fetch-ra)
